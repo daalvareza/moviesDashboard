@@ -11,10 +11,10 @@ you will be redirected to the movie search page.
 In the SignUp and Login page, if the validations are not correct, an error message is displayed below the
 correspondent input indicating what's wrong.
 
-In the MovieList page, if the input 'Movie Name' is not empty and the button 'Save' is submited, a file
-will be created with the response of the API, a message, right above the button, will tell you.
-The input Title is required for search, Year is optional, check the checkboxes if you want the information
-sorted by title or year, and select the option if you want an ascending or descending order.
-When the button 'Search' is clicked, a table with the name, year and poster of the movie will be shown.
+In the MovieList page, search the movie by the title or the year of release, the input title is required, the year
+is optional, if the Search button is clicked, the results are displayed in a table, if the Save button is clicked,
+a JSON file will be created with the results and the table will be displayed too. The table only displays a max of
+100 entries and show 10 by page per default (the number of movies showed by page can be set by the user with a input
+below the table), the table can be order by columns with a click in the header of the column that want to be order.
 
 The button Log Out will close the session and you will be redirected to the login page.
